@@ -3,12 +3,12 @@
 // alert(a)
 
 // Задание 2
-// let iphoneyear = 2007
-// alert(iphoneyear)
+// let firstIphoneYearRelease = 2007
+// alert(firstIphoneYearRelease)
 
 // Задание 3
-// let jscreator = "Brendan Eich";
-// alert(jscreator)
+// let jsСreator = "Brendan Eich";
+// alert(jsСreator)
 
 // Задание 4
 // let a = 10
