@@ -3,12 +3,12 @@
 // alert(a)
 
 // Задание 2
-// let year = 2007
-// alert(a)
+// let iphoneyear = 2007
+// alert(iphoneyear)
 
 // Задание 3
-// let creator = "Brendan Eich";
-// alert(creator)
+// let jscreator = "Brendan Eich";
+// alert(jscreator)
 
 // Задание 4
 // let a = 10
@@ -33,8 +33,8 @@
 // num -= 3;
 // num *= 7;
 // num /= 3;
-// num += 1;
-// num -= 1;
+// num ++ ;
+// num --;
 // alert(num);
 
 // Задание 8
