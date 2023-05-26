@@ -112,18 +112,21 @@
 
 // Задание 8 
 
-let userInput = prompt('Введите число')
+// let userInput = prompt('Введите число')
 
-function seasons(Number) {
-    if (num == 12 || 1 <= 2)  {
-        alert('Зима')
-    } else if (num == 3 || num <= 5) {
-        alert('Весна')
-    } else if (num == 6 || num <= 8) {
-        alert('Лето')
-    } else if (num == 9 || num <= 11 ) {
-        alert('Осень')
-    } else {
-        alert('Вы ввели неверные данные')
-    } 
-}
+// function seasons(Number) {
+//     if (Number == 12 || Number <= 2)  {
+//         alert('Зима');
+//     } else if (Number == 3 || Number <= 5) {
+//         alert('Весна');
+//     } else if (Number == 6 || Number <= 8) {
+//         alert('Лето');
+//     } else if (Number == 9 || Number <= 11 ) {
+//         alert('Осень');
+//     } else {
+//         alert('Вы ввели неверные данные')
+//     } 
+// }
+// seasons(userInput)
+
+
