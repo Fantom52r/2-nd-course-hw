@@ -112,48 +112,18 @@
 
 // Задание 8 
 
+let userInput = prompt('Введите число')
+
 function seasons(Number) {
-    let monthNumber = Number( prompt('введите номер месяца'));
-    switch (monthNumber) {
-        case 1:
-            console.log('это первый месяц зимы');
-            break;
-        case 2:
-            console.log('это второй месяц зимы');
-            break;
-        case 3:
-            console.log('это первый месяц весны');
-            break
-        case 4:
-            console.log('это второй месяц весны');
-            break;
-        case 5:
-            console.log('это третий месяц весны');
-            break;
-        case 6:
-            console.log('это первый месяц лета');
-            break;
-        case 7:
-            console.log('это второй месяц лета');
-            break;
-        case 8:
-            console.log('это третий месяц лета');
-            break;
-        case 9:
-            console.log('это первый месяц осени');
-            break;
-        case 10:
-            console.log('это второй месяц осени');
-            break;
-        case 11:
-            console.log('это третий месяц осени');
-            break;
-        case 12:
-            console.log('это первый месяц зимы');
-            break;
-        default:
-            console.log('такого месяца нет');
-            break;
-    }
-       
+    if (num == 12 || 1 <= 2)  {
+        alert('Зима')
+    } else if (num == 3 || num <= 5) {
+        alert('Весна')
+    } else if (num == 6 || num <= 8) {
+        alert('Лето')
+    } else if (num == 9 || num <= 11 ) {
+        alert('Осень')
+    } else {
+        alert('Вы ввели неверные данные')
+    } 
 }
