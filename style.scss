@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -118,15 +122,70 @@ body {
     &__img {
         width: 100%;
         border-radius: 19px;
-       
+
         &:hover {
             border: 1px solid rgb(4, 165, 240);
 
         }
     }
 
-    
+
 }
+
+.seasons {
+    max-width: 1440px;
+    height: 800px;
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 135px;
+
+    &__heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column
+    }
+
+    &__link {
+        padding-top: 32px;
+    }
+
+    &__button {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9c0332;
+        border-radius: 30px;
+        box-sizing: border-box;
+        padding-left: 74px;
+        padding-right: 74px;
+    }
+}
+
 
 
 

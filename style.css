@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -119,6 +123,55 @@ body {
   border: 1px solid rgb(4, 165, 240);
 }
 
+.seasons {
+  max-width: 1440px;
+  height: 800px;
+  background: #000915;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+}
+.seasons__heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.seasons__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
+}
+.seasons__block {
+  display: flex;
+  flex-direction: column;
+}
+.seasons__link {
+  padding-top: 32px;
+}
+.seasons__button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 234.06px;
+  height: 48.6px;
+  background: #9c0332;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -158,4 +211,54 @@ body {
   .game__img {
     width: 343px;
   }
+}
+.seasons {
+  max-width: 1440px;
+  height: 800px;
+  background: #000915;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+}
+.seasons__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.seasons__text {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.seasons__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seasons__link {
+  padding-top: 32px;
+}
+.seasons__button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 234.06px;
+  height: 48.6px;
+  background: #9c0332;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding-left: 74px;
+  padding-right: 74px;
 }/*# sourceMappingURL=style.css.map */
