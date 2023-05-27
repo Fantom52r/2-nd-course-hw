@@ -29,8 +29,7 @@ body {
 }
 
 .title {
-  width: 788.78px;
-  height: 125.01px;
+  max-width: 788px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -41,10 +40,12 @@ body {
   color: #ffffff;
   padding-top: 217px;
 }
+.title_active {
+  padding: 0px;
+}
 
 .title-paragraph {
-  width: 481px;
-  height: 64px;
+  max-width: 481px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
@@ -53,6 +54,10 @@ body {
   color: #ffffff;
   padding-top: 32px;
   padding-bottom: 44px;
+}
+.title-paragraph_active {
+  width: 584px;
+  padding: 32px 0px 32px;
 }
 
 .span-paragraph {
@@ -124,52 +129,17 @@ body {
 }
 
 .seasons {
-  max-width: 1440px;
-  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   background: #000915;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  -moz-column-gap: 135px;
-       column-gap: 135px;
+  padding-top: 233px;
+  padding-bottom: 233px;
 }
-.seasons__heading {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
-  color: #FFFFFF;
-}
-.seasons__text {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #FFFFFF;
-  padding-top: 32px;
-}
-.seasons__block {
-  display: flex;
-  flex-direction: column;
-}
-.seasons__link {
-  padding-top: 32px;
-}
-.seasons__button {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  width: 234.06px;
-  height: 48.6px;
-  background: #9c0332;
-  border-radius: 30px;
-  box-sizing: border-box;
-  padding-left: 74px;
-  padding-right: 74px;
+
+.picture__img {
+  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -187,6 +157,10 @@ body {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+  }
+  .title_active {
+    display: flex;
+    justify-content: center;
   }
   .title-paragraph {
     width: 343px;
@@ -213,53 +187,10 @@ body {
   }
 }
 .seasons {
-  max-width: 1440px;
-  height: 800px;
-  background: #000915;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  -moz-column-gap: 135px;
-       column-gap: 135px;
+  padding-top: 51px;
+  padding-bottom: 85px;
 }
-.seasons__heading {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  color: #FFFFFF;
-}
-.seasons__text {
-  font-family: "Montserrat";
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: #FFFFFF;
-}
-.seasons__block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.seasons__link {
-  padding-top: 32px;
-}
-.seasons__button {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  width: 234.06px;
-  height: 48.6px;
-  background: #9c0332;
-  border-radius: 30px;
-  box-sizing: border-box;
-  padding-left: 74px;
-  padding-right: 74px;
+
+.picture__img {
+  padding-top: 64px;
 }/*# sourceMappingURL=style.css.map */
