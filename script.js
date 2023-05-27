@@ -1,18 +1,29 @@
 
 
-function seasons(Number) {
+// function seasons() {
 
-    let Number = prompt('Введите число');
+// let userInput = prompt('Введите число')
 
-    if (Number == 12 || Number <= 2) {
-        alert('Зима')
-    } else if (Number == 3 || Number <= 5) {
-        alert('Весна')
-    } else if (Number == 6 || Number <= 8) {
-        alert('Лето')
-    } else if (Number == 9 || Number <= 11) {
-        alert('Осень')
-    } else {
-        alert('такого времени не существует , ты проиграл')
-    }
-}
+//     if (userInput == 12 || userInput <= 2)  {
+
+//         alert('Зима');
+
+//     } else if (userInput == 3 || userInput <= 5) {
+
+//         alert('Весна');
+
+//     } else if (userInput == 6 || userInput <= 8) {
+
+//         alert('Лето');
+
+//     } else if (userInput == 9 || userInput <= 11 ) {
+
+//         alert('Осень');
+
+//     } else {
+
+//         alert('Вы ввели неверные данные')
+
+//     } 
+
+// }
