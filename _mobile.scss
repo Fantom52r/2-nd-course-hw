@@ -14,6 +14,11 @@
         align-items: center;
         text-align: center;
         color: #FFFFFF;
+
+        &_active {
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .title-paragraph {
@@ -42,4 +47,14 @@
             width: 343px;
         }
     }
+}
+
+.seasons {
+padding-top: 51px;
+padding-bottom: 85px;
+
+}   
+
+.picture__img {
+    padding-top: 64px;
 }
