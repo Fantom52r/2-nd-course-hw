@@ -112,11 +112,18 @@
 // Задание 13
 
 
-// let array = [-1, 0, 5, -10, 56];
+// let arrayOne = [-1, 0, 5, -10, 56];
 
-// const filterPositive = array => array.filter(i => i < 0);
+// const filterPositive = array => arrayOne.filter(i => i < 0);
 
-// console.log(filterPositive(array));
+// console.log(filterPositive(arrayOne));
+
+
+// let arrayTwo = [-25, 25, 0, -1000, -2];
+
+// const filterPositive = array => arrayTwo.filter(i => i < 0);
+
+// console.log(filterPositive(arrayTwo));
 
 
 
