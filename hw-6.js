@@ -77,7 +77,46 @@
 
 // Задание 9 
 
-let arrays = {
-    [1, 2, 3];
-    [4, 5, 6];
-}
+// let arr = [[1, 2, 3,],[4, 5, 6]];
+//  arr = arr.flat();
+// console.log(arr);
+
+
+// задание 10
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 1; i < arr.length - 1; i++) {
+// console.log(arr[i - 1] + arr[i] + arr[i + 1]);
+// }
+
+
+// Задание 11
+
+// const arr = [2, 4, 6, 8, 10];
+
+// let result = arr.map(item => (item ** 2));
+ 
+// console.log(result);
+
+
+// Задание  12
+
+// function nameLength(str) {
+//   const words = str.split(" ");
+//   return words.map((str) => ${str} ${str.length});
+// }
+
+// console.log(nameLength("слово  слог длинное предложение буква"));
+
+
+// Задание 13
+
+
+// let array = [-1, 0, 5, -10, 56];
+
+// const filterPositive = array => array.filter(i => i < 0);
+
+// console.log(filterPositive(array));
+
+
+
