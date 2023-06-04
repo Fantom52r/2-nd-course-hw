@@ -101,12 +101,11 @@
 
 // Задание  12
 
-// function nameLength(str) {
-//   const words = str.split(" ");
-//   return words.map((str) => ${str} ${str.length});
-// }
-
-// console.log(nameLength("слово  слог длинное предложение буква"));
+// let word = ["слово", " ", " длиное предолжение", "буква"];
+// let lenths = word.map(function (words) {
+//   return words.length;
+// });
+// console.log(lenths.join([","]));
 
 
 // Задание 13
