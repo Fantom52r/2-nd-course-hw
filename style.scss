@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-img {
-    width: 100%;
-}
 
 a {
     text-decoration: none;
@@ -155,7 +152,18 @@ body {
 }
 
 
+.rememberWords { 
+    background: #000915;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 239px;
+    padding-bottom: 239px;
 
-
+}
+   .remember__img {
+    width: 100%;
+   } 
 
 @import 'mobile';

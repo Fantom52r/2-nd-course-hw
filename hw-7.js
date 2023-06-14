@@ -54,11 +54,16 @@
 
 // Задание 6
 
-const giveMeRandom = function(n) {
-    let arrWithNums = [];
-    for (i = 0; i < Math.floor(n / 2);  i++) {
-     arrWithNums.push(Math.floor(Math.random() * n));
-    }
-    return arrWithNums;
-  }
-  console.log(giveMeRandom(12));
+// const giveMeRandom = function(n) {
+//     let arrWithNums = [];
+//     for (i = 0; i < Math.floor(n / 2);  i++) {
+//      arrWithNums.push(Math.floor(Math.random() * n));
+//     }
+//     return arrWithNums;
+//   }
+//   console.log(giveMeRandom(12));
+
+
+// задание 7
+
+
