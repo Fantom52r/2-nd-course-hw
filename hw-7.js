@@ -67,4 +67,85 @@
 // задание 7
 
 
-1
+// function randomNumbers(a, b) {
+//     return Math.floor(Math.random(a) * b)
+// }
+// console.log(randomNumbers(1, 100));
+
+
+// Задание 8
+
+// let currentDate = new Date();
+// console.log(currentDate);
+
+
+// задание 9
+
+// let currentDate = new Date();
+// currentDate.setDate(73);
+
+// console.log(currentDate);
+
+
+// Задание 10
+
+// function formatDateAndTime(date) {
+    //   let days = [
+    //     "Воскресенье",
+    //     "Понедельник",
+    //     "Вторник",
+    //     "Среда",
+    //     "Четверг",
+    //     "Пятница",
+    //     "Суббота",
+    //   ];
+    //   let months = [
+    //     "Января",
+    //     "Февраля",
+    //     "Марта",
+    //     "Апреля",
+    //     "Мая",
+    //     "Июня",
+    //     "Июля",
+    //     "Августа",
+    //     "Сентября",
+    //     "Октября",
+    //     "Ноября",
+    //     "Декабря",
+    //   ];
+    //   let day = days[date.getDay()];
+    //   let month = months[date.getMonth()];
+    //   let year = date.getFullYear();
+    //   let dateStr = date.getDate();
+    //   let hours = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
+    //   let minutes =
+    //     date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+    //   let seconds =
+    //     date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+    //   let timeStr = ${hours}:${minutes}:${seconds};
+    //   console.log(`Дата: ${dateStr} ${month} ${year} - это ${day}.`);
+    //   console.log(`Время: ${timeStr}`);
+    // }
+    // formatDateAndTime(new Date());
+
+    
+    
+    // задание 11
+
+    // function gameFunction() {
+    //     let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']
+    //     fruits = fruits.sort(() => Math.random() - 0.5);
+    //     alert(` Запомните первый и последний фрукт! ${fruits}`)
+    //     let userAnswerOne = prompt('Введите первое слово')
+    //     let userAnswerTwo = prompt('Введите второе слово')
+    //     if (userAnswerOne.toLowerCase() == fruits[0].toLowerCase() && userAnswerTwo.toLowerCase() == fruits[fruits.length - 1].toLowerCase()) {
+    //         alert('Поздравляем, вы угадали оба элемента')
+    //     } else if (userAnswerOne.toLowerCase()  !== fruits[0].toLowerCase() && userAnswerTwo.toLowerCase() == fruits[fruits.length - 1].toLowerCase()) {
+    //         alert('Вы были близки к победе !')
+    //     }  else if (userAnswerOne.toLowerCase()  == fruits[0].toLowerCase() && userAnswerTwo.toLowerCase() !== fruits[fruits.length - 1].toLowerCase()){
+    //         alert('Вы были близки к поебеде')
+    //     }
+    //     else {
+    //         alert(' Вы ответили неверно')
+    //     }
+    // }
